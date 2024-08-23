@@ -4,7 +4,7 @@ for i in range(5):
     ra = int(input("informe o RA do aluno: "))
     notas = []
     for x in range(3):
-        nota = float(input(f"digite a nota {x+1} do aluno {ra}"))
+        nota = float(input(f"digite a nota {x+1} do aluno {ra}: "))
         notas.append(nota)
     alunos[ra] = notas
 
