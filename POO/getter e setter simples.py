@@ -14,5 +14,5 @@ class Lampada:
 
 quarto = Lampada ('teste')
 print(quarto.get_estado())
-quarto.set_estado ('desli')
+quarto.set_estado ('desligado')
 print(quarto.get_estado())
