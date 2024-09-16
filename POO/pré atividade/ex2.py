@@ -60,5 +60,5 @@ TI = Departamento('Tecnologia da Informação')
 TI.adicionar_funcionario(Marcio)
 TI.adicionar_funcionario(Alex)
 TI.listar_funcionarios()
-TI.calcular_total_salarios(TI)
+TI.calcular_total_salarios()
 
