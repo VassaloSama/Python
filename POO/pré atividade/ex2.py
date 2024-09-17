@@ -47,18 +47,20 @@ class Departamento:
         if len(self.funcionarios) > 0:
             print(f'Funcionários:')
             for funcionario in self.funcionarios:
-                print(f'Nome: {funcionario.nome}')
+                print(f'Nome: {funcionario.nome}, salario anual de R$ {funcionario.calcular_salario_anual()}')
         else:
             print('Não possui nenhum funcionario')
      
 
 Marcio= Funcionario('Marcio', 30, 6000)
 Alex= Funcionario('Alex', 40, 10000)
+Lucas= Funcionario('Lucas', 17,4000)
 
 TI = Departamento('Tecnologia da Informação')
 
 TI.adicionar_funcionario(Marcio)
 TI.adicionar_funcionario(Alex)
+TI.adicionar_funcionario(Lucas)
 TI.listar_funcionarios()
-TI.calcular_total_salarios()
+print(TI.calcular_total_salarios())
 
