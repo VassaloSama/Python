@@ -62,5 +62,5 @@ TI.adicionar_funcionario(Marcio)
 TI.adicionar_funcionario(Alex)
 TI.adicionar_funcionario(Lucas)
 TI.listar_funcionarios()
-print(f'O salario anual do departamento é : R${TI.calcular_total_salarios()}')
+print(fO salario anual do departamento é : R${TI.calcular_total_salarios()}')
 
